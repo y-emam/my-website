@@ -41,3 +41,20 @@
   color: #000;
   background-color: #009fa9;
 }
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.home-header * {
+  margin: 5px;
+}
+
+.img-me {
+  width: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}

@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <header className="navbar ">
+    <nav className="navbar ">
       <a href="/" className="navbar-item active">
         Home
       </a>
@@ -16,7 +16,7 @@ function Navbar() {
       <a href="/about" className="navbar-item">
         About
       </a>
-    </header>
+    </nav>
   );
 }
 

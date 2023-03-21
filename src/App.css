@@ -52,9 +52,17 @@
   margin: 5px;
 }
 
+.home-header p,
+h1 {
+  color: #fff;
+}
+
 .img-me {
   width: 500px;
-  border-radius: 50%;
+  height: 500px;
+  /* border-radius: 50%; */
   overflow: hidden;
   display: inline-block;
+  border-radius: 5px 60px 0 50px;
+  box-shadow: 5px 10px 20px #000;
 }

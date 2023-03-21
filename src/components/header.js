@@ -9,7 +9,7 @@ function Header() {
           effectively.
         </p>
       </div>
-      <img className="img-me" src={require("../assets/me.jpg")} />
+      <img className="img-me" src={require("../assets/me5.jpg")} />
     </header>
   );
 }

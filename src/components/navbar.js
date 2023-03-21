@@ -1,13 +1,21 @@
 function Navbar() {
   return (
-    <header className="navbar">
-      <a href="/" className="navbar-item">
+    <header className="navbar ">
+      <a href="/" className="navbar-item active">
         Home
       </a>
-      <div className="navbar-item">Projects</div>
-      <div className="navbar-item">Hire me</div>
-      <div className="navbar-item">Contacts</div>
-      <div className="navbar-item">About</div>
+      <a href="/projects" className="navbar-item">
+        Projects
+      </a>
+      <a href="/hire-me" className="navbar-item">
+        Hire me
+      </a>
+      <a href="/contacts" className="navbar-item">
+        Contacts
+      </a>
+      <a href="/about" className="navbar-item">
+        About
+      </a>
     </header>
   );
 }

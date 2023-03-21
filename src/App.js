@@ -6,6 +6,7 @@ import HireMe from "./pages/hire-me";
 import Contacts from "./pages/contact";
 import About from "./pages/about";
 import NoPage from "./pages/no-page";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

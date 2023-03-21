@@ -1,0 +1,3 @@
+colors: #686868 grey
+        #009FA9 blue
+        #7FD1AE baby blue

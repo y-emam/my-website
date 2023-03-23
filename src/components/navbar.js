@@ -1,18 +1,25 @@
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Navbar() {
   return (
     <nav className="navbar ">
+      <label>
+        <input type={"checkbox"} id="check" />
+        <FontAwesomeIcon icon={faBars} className="checkbtn" />
+      </label>
       <a href="/" className="navbar-name">
         Y.Emam
       </a>
-      <a href="/" className="navbar-item active">
+      <a href="/" className="navbar-item active" id="navbar-item-home">
         Home
       </a>
       <a href="/projects" className="navbar-item">
         Projects
       </a>
-      <a href="/hire-me" className="navbar-item">
+      {/* <a href="/hire-me" className="navbar-item">
         Hire me
-      </a>
+      </a> */}
       <a href="/contacts" className="navbar-item">
         Contacts
       </a>

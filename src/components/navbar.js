@@ -1,6 +1,9 @@
 function Navbar() {
   return (
     <nav className="navbar ">
+      <a href="/" className="navbar-name">
+        Y.Emam
+      </a>
       <a href="/" className="navbar-item active">
         Home
       </a>

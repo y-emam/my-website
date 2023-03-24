@@ -1,10 +1,6 @@
 // import "./App.css";
 import HomePage from "./pages/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Projects from "./pages/projects";
-import HireMe from "./pages/hire-me";
-import Contacts from "./pages/contact";
-import About from "./pages/about";
 import NoPage from "./pages/no-page";
 // import "bootstrap/dist/css/bootstrap.min.css";
 

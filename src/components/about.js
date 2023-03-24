@@ -18,7 +18,6 @@ function About() {
           user experience
         </p>
       </div>
-      {/* <div className="about-info"></div> */}
     </div>
   );
 }

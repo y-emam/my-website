@@ -124,7 +124,6 @@
 
 .home-header .info {
   width: 500px;
-  /* margin: auto; */
 }
 
 .home-header h1 {
@@ -195,7 +194,6 @@
 
 /* About Section */
 .about {
-  /* position: absolute; */
   height: 500px;
   background-color: #324b4d;
   color: white;

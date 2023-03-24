@@ -1,9 +1,10 @@
 function About() {
   return (
-    <div className="about-section">
+    <div className="about">
+      <h1 id="about-title-bg">About Me</h1>
       <div className="about-text">
         <h2>
-          I'm <span>Yasser Emam</span>, Software Engineer
+          I'm <span>Yasser Emam</span>, a Software Engineer
         </h2>
         <p>
           Looking to take your business online? As a web and mobile app
@@ -17,7 +18,7 @@ function About() {
           user experience
         </p>
       </div>
-      <div className="about-info"></div>
+      {/* <div className="about-info"></div> */}
     </div>
   );
 }

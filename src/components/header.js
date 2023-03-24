@@ -18,11 +18,6 @@ function Header() {
             />
           </div>
         </h1>
-        {/* <p>
-          Looking to take your business online? As a web and mobile app
-          developer, I can assist you in making that transition smoothly and
-          effectively.
-        </p> */}
         <PrimaryButton title={"CONTACT ME"} />
       </div>
       <img className="img-me" src={require("../assets/me6.jpg")} />

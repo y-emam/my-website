@@ -11,7 +11,7 @@ function Header() {
           <div id="type-writer">
             <TypewriterComponent
               options={{
-                strings: ["Yasser", "Developer", "Programmer", "Freelancer"],
+                strings: ["Yasser", "Developer", "Freelancer"],
                 autoStart: true,
                 loop: true,
               }}

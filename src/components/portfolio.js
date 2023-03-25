@@ -76,10 +76,12 @@ function Portfolio() {
   ];
 
   return (
-    <div className="portfolio" id="portfolio">
-      <h2>My Projects</h2>
-      <div className="card-slider">
-        <ReactCardSlider slides={slides} />
+    <div className="portfolio " id="portfolio">
+      <div className="portfolio-container hidden">
+        <h2>My Projects</h2>
+        <div className="card-slider">
+          <ReactCardSlider slides={slides} />
+        </div>
       </div>
     </div>
   );

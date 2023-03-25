@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="about" id="about">
       <h1 id="about-title-bg">About Me</h1>
-      <div className="about-text">
+      <div className="about-text hidden">
         <h2>
           I'm <span>Yasser Emam</span>, a Software Engineer
         </h2>

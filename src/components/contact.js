@@ -10,7 +10,7 @@ import kaggle from "../assets/svg/kaggle.svg";
 function Contact() {
   return (
     <div className="contact">
-      <div className="contact-info" id="contact-info">
+      <div className="contact-info hidden" id="contact-info">
         <h2>Social Links</h2>
         <a href="https://github.com/YasserEmam25">
           <img src={github} alt="Github Logo" id="github-logo" />

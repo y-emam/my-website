@@ -1,10 +1,11 @@
 import PrimaryButton from "./PrimaryButton";
 import TypewriterComponent from "typewriter-effect";
+// import { useEffect } from "react";
 
 function Header() {
   return (
     <header className="home-header" id="home-header">
-      <div className="info">
+      <div className="info hidden">
         <h1>
           Hi, I'm
           <br />
@@ -23,7 +24,7 @@ function Header() {
         </a>
       </div>
       <img
-        className="img-me"
+        className="img-me hidden"
         src={require("../assets/me6.jpg")}
         alt="Yasser Emam"
       />

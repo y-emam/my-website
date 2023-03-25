@@ -304,7 +304,8 @@ html {
 
 /* Start Portfolio Section */
 
-.portfolio {
+.portfolio,
+.portfolio-container {
   background-color: #00303a;
   height: 100vh;
   display: flex;
@@ -343,7 +344,7 @@ html {
   padding: 16px;
 }
 
-.contact-info {
+#contact-info {
   font-weight: bold;
   width: 60%;
   align-self: center;
@@ -445,3 +446,26 @@ html {
 }
 
 /* End Arrow up */
+
+/* Start Show-up Effect */
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+/* End Show-up Effect */

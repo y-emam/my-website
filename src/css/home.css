@@ -26,6 +26,7 @@ html {
   padding: 10px;
   background-color: #111111;
   margin: 0 auto;
+  z-index: 4;
 }
 
 .navbar-name {

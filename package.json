@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
+    "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.19.0",

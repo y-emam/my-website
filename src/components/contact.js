@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 import email from "../assets/svg/email.svg";
 import facebook from "../assets/svg/facebook.svg";
 import github from "../assets/svg/github.svg";
@@ -7,6 +5,7 @@ import linkedin from "../assets/svg/linkedin.svg";
 import phone from "../assets/svg/phone.svg";
 import telegram from "../assets/svg/telegram.svg";
 import whatsapp from "../assets/svg/whatsapp.svg";
+import kaggle from "../assets/svg/kaggle.svg";
 
 function Contact() {
   return (
@@ -21,6 +20,9 @@ function Contact() {
         </a>
         <a href="https://www.facebook.com/profile.php?id=100005674454946">
           <img src={facebook} alt="Facebook Logo" />
+        </a>
+        <a href="https://www.kaggle.com/yasseremam">
+          <img src={kaggle} alt="Kaggle Logo" />
         </a>
         <h2>Email</h2>
         <img src={email} alt="Email Logo" />

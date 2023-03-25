@@ -63,6 +63,10 @@ html {
   transition: all 0.2s ease-out;
 }
 
+#side-icon {
+  display: none;
+}
+
 .checkbtn {
   color: white;
   font-size: 32px;

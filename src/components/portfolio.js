@@ -1,6 +1,6 @@
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <div class="card">
         <div class="image"></div>
         <h2>Someone Name</h2>

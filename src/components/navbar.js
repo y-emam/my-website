@@ -14,20 +14,20 @@ function Navbar() {
           <p>About</p>
         </div>
       </label>
-      <a href="/" className="navbar-name">
+      <a href="#home-header" className="navbar-name">
         Y.Emam
       </a>
-      <a href="/" className="navbar-item active" id="navbar-item-home">
+      <a href="#home-header" className="navbar-item " id="navbar-item-home">
         Home
       </a>
-      <a href="/projects" className="navbar-item">
+      <a href="#about" className="navbar-item">
+        About
+      </a>
+      <a href="#portfolio" className="navbar-item">
         Projects
       </a>
-      <a href="/contacts" className="navbar-item">
+      <a href="#contact-info" className="navbar-item">
         Contact
-      </a>
-      <a href="/about" className="navbar-item">
-        About
       </a>
     </nav>
   );

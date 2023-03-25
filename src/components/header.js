@@ -3,7 +3,7 @@ import TypewriterComponent from "typewriter-effect";
 
 function Header() {
   return (
-    <header className="home-header">
+    <header className="home-header" id="home-header">
       <div className="info">
         <h1>
           Hi, I'm

@@ -468,3 +468,24 @@ html {
 }
 
 /* End Contact Section */
+
+/* Arrow up */
+
+.arrow-up {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  font-size: 50px;
+}
+
+.arrow-up a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.arrow-up:hover a {
+  color: #7fd1ae;
+}
+
+/* End Arrow up */

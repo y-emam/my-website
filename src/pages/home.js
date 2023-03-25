@@ -4,6 +4,7 @@ import Portfolio from "../components/portfolio";
 import About from "../components/about";
 import "../css/home.css";
 import Contact from "../components/contact";
+import ArrowUp from "../components/arrow-up";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <About />
       <Portfolio />
       <Contact />
+      <ArrowUp />
     </div>
   );
 }

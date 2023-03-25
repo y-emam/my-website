@@ -105,11 +105,17 @@ html {
     min-height: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
-    /* z-index: 1; */
+  }
+
+  .dropdown-content a {
+    text-decoration: none;
   }
 
   .dropdown-content p {
     margin: 12px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
     transition: all 0.2s ease-out;
   }
 
@@ -117,8 +123,14 @@ html {
     color: #009fa9;
   }
 
-  #side-icon:hover .dropdown-content {
+  #side-icon.active .dropdown-content {
     display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dropdown-content {
+    min-width: 240px;
   }
 }
 

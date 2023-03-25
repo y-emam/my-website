@@ -9,24 +9,38 @@ function Navbar() {
     const sideBar = document.getElementById("side-icon");
 
     if (isSideBarActive) {
-      sideBar.classList.add("active");
-      setIsSideBarActive(true);
-    } else {
       sideBar.classList.remove("active");
       setIsSideBarActive(false);
+      return;
+    } else {
+      sideBar.classList.add("active");
+      setIsSideBarActive(true);
+      return;
     }
   };
 
   return (
     <nav className="navbar ">
-      <label id="side-icon" onClick={sideBarClick}>
+      <label id="side-icon">
         <input type={"checkbox"} id="check" />
-        <FontAwesomeIcon icon={faBars} className="checkbtn" />
+        <FontAwesomeIcon
+          icon={faBars}
+          className="checkbtn"
+          onClick={sideBarClick}
+        />
         <div className="dropdown-content">
-          <p>Home</p>
-          <p>Projects</p>
-          <p>Contact</p>
-          <p>About</p>
+          <a href="#home-header">
+            <p>Home</p>
+          </a>
+          <a href="#portfolio">
+            <p>Portfolio</p>
+          </a>
+          <a href="#contact-info">
+            <p>Contact</p>
+          </a>
+          <a href="#about">
+            <p>About</p>
+          </a>
         </div>
       </label>
       <a href="#home-header" className="navbar-name">

@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Portfolio from "../components/portfolio";
 import About from "../components/about";
 import "../css/home.css";
+import Contact from "../components/contact";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Header />
       <About />
       <Portfolio />
+      <Contact />
     </div>
   );
 }

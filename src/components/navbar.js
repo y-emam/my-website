@@ -23,9 +23,6 @@ function Navbar() {
       <a href="/projects" className="navbar-item">
         Projects
       </a>
-      {/* <a href="/hire-me" className="navbar-item">
-        Hire me
-      </a> */}
       <a href="/contacts" className="navbar-item">
         Contact
       </a>

@@ -18,9 +18,15 @@ function Header() {
             />
           </div>
         </h1>
-        <PrimaryButton title={"CONTACT ME"} />
+        <a href="#contact-info">
+          <PrimaryButton title={"CONTACT ME"} />
+        </a>
       </div>
-      <img className="img-me" src={require("../assets/me6.jpg")} />
+      <img
+        className="img-me"
+        src={require("../assets/me6.jpg")}
+        alt="Yasser Emam"
+      />
     </header>
   );
 }

@@ -88,19 +88,33 @@ html {
   }
 
   #side-icon {
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     display: inline-block;
   }
 
   .dropdown-content {
     display: none;
+    background-color: #111111;
     color: white;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    top: 70px;
+    right: 30px;
+    min-width: 400px;
+    min-height: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
-    z-index: 1;
+    /* z-index: 1; */
+  }
+
+  .dropdown-content p {
+    margin: 12px;
+    transition: all 0.2s ease-out;
+  }
+
+  .dropdown-content p:hover {
+    color: #009fa9;
   }
 
   #side-icon:hover .dropdown-content {

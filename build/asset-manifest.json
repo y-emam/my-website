@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f935199a.css",
+    "main.js": "/static/js/main.f5e9b29b.js",
+    "static/media/me6.jpg": "/static/media/me6.f5940af6b2760410aa70.jpg",
+    "static/media/school-affairs-home.png": "/static/media/school-affairs-home.bedd28be01420b738c94.png",
+    "static/media/youtube-clone.png": "/static/media/youtube-clone.251c4dad62fd747d409f.png",
+    "static/media/nagwa-quiz-app.png": "/static/media/nagwa-quiz-app.d6a228dd823d53e283d9.png",
+    "static/media/data-scientists-proj.png": "/static/media/data-scientists-proj.09cdaae4718187835a14.png",
+    "static/media/storefront-system.jpg": "/static/media/storefront-system.29656a72d7db230a6184.jpg",
+    "static/media/todo-app.png": "/static/media/todo-app.432f73f840b443145420.png",
+    "static/media/linkedin.svg": "/static/media/linkedin.903f67c362e3a1addd3ad30693ac5df4.svg",
+    "static/media/kaggle.svg": "/static/media/kaggle.dabcec4f2e85040cb26fff63cba59afa.svg",
+    "static/media/github.svg": "/static/media/github.187c5400112844709fb09cbe8907024d.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.0efcbba9630efcb98f1747edc1741e70.svg",
+    "static/media/telegram.svg": "/static/media/telegram.b758440350c3e3a1b66be65e69289ec6.svg",
+    "static/media/phone.svg": "/static/media/phone.053c6f7f2494eb01b926b000d5c11f95.svg",
+    "static/media/facebook.svg": "/static/media/facebook.c4fb253fb8c43bef4ff51e9b7c480ca0.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.8cd101eb5f737c27e91052a56f1a5dec.svg",
+    "main.f935199a.css.map": "/static/css/main.f935199a.css.map",
+    "main.f5e9b29b.js.map": "/static/js/main.f5e9b29b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f935199a.css",
+    "static/js/main.f5e9b29b.js"
+  ]
+}
